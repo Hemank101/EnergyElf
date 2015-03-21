@@ -7,6 +7,9 @@ $(document).ready(function(){
     	var $incoming = $("#name").val();
 
     	console.log($incoming);
+
+    	$("#submit-form").addClass("hide");
+    	$("#results").removeClass("hide");
     });
 });
 
